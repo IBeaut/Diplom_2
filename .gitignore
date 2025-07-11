@@ -1,18 +1,27 @@
 # Python cache
 __pycache__/
+*.py[cod]
+*.pyo
+
+# Byte-compiled
 *.pyc
 
-# Allure results
-allure-results/
-allure-report/
+# Virtual environments
+.venv/
+env/
+venv/
 
 # IDE settings
 .idea/
 .vscode/
 
-# Environment files
-.env
-
 # OS files
 .DS_Store
 Thumbs.db
+
+# Test/report output
+allure-results/
+allure-report/
+
+# Environment config
+.env

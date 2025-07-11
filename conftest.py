@@ -1,6 +1,7 @@
 import pytest
 import requests
-from utils import generate_user, BASE_URL
+from utils.helpers import generate_user
+from utils.urls import BASE_URL
 
 @pytest.fixture
 def create_user():
